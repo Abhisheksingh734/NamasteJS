@@ -16,17 +16,32 @@
 
 // hown function works in JavaScript------------------
 
-var x =1;
+// var x =1;
 
-a();
-b();
-console.log(x);
+// a();
+// b();
+// console.log(x);
 
-function a(){
-    var x = 10;
-    console.log(x);
-}
-function b(){
-    var x = 100;
-    console.log(x);
-}
+// function a(){
+//     var x = 10;
+//     console.log(x);
+// }
+// function b(){
+//     var x = 100;
+//     console.log(x);
+// }
+
+
+//---Scope chain in JS
+
+// function a(){
+//     var ba =28; 
+
+//     b();
+//     function b(){
+//         console.log(ba);
+
+//     }
+// }
+
+// a();
