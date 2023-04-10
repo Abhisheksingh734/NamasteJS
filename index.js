@@ -45,3 +45,21 @@
 // }
 
 // a();
+
+
+// -------BLOCK SCOPE
+
+{
+    console.log(a);
+console.log(b);
+console.log(c);
+    var a = 10;
+    let b = 39;
+    const c = 45;
+    
+
+}
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
