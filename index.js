@@ -1,3 +1,7 @@
+// JavaScript uses JIT compilation (Interpreter + compiler)
+
+
+
 //Arrow function and normal function------------
 
 // getName();
@@ -49,17 +53,32 @@
 
 // -------BLOCK SCOPE
 
-{
-    console.log(a);
-console.log(b);
-console.log(c);
-    var a = 10;
-    let b = 39;
-    const c = 45;
+// {
+//     console.log(a);
+// console.log(b);
+// console.log(c);
+//     var a = 10;
+//     let b = 39;
+//     const c = 45;
     
 
-}
+// }
 
 // console.log(a);
 // console.log(b);
 // console.log(c);
+
+
+
+
+//setTimeout()
+
+function x(){
+    let i=1;
+    setTimeout(function (){
+        console.log(i);
+    },3000);
+    console.log("Namaste bhai");
+
+}
+x();
